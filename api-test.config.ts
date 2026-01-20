@@ -4,8 +4,8 @@ console.log('Test environment is: ' + env)
 
 const config = {
     apiUrl: 'https://conduit-api.bondaracademy.com/api',
-    userEmail: 'templateapiuser@xyz.com',
-    userPassword: 'Welcome'
+    userEmail: 'hu.quiet.seven@mycloaked.id',
+    userPassword: 'Slum%sonic!aegis6'
 }
 
 if(env === 'qa'){
