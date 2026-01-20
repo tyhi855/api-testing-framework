@@ -3,7 +3,7 @@ import { APILogger } from "./logger";
 import { test } from "@playwright/test"
 
 export class RequestHandler {
-
+    // Fields
     private request: APIRequestContext
     private logger: APILogger
     private baseUrl: string | undefined
@@ -21,7 +21,7 @@ export class RequestHandler {
         this.logger = logger
         this.defaultAuthToken = authToken
     }
-
+    // Methods
     url(url: string) {
         this.baseUrl = url
         return this
