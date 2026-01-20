@@ -1,8 +1,11 @@
 {
-  "name": "pw-api-testing",
+  "name": "playwright-api-tests",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "type": "module",
+  "scripts": {
+    "test:api": "playwright test tests/api --reporter=html"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -13,5 +16,8 @@
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "genson-js": "^0.0.8"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3"
   }
 }
