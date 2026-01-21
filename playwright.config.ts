@@ -14,6 +14,7 @@ import 'dotenv/config';
  */
 export default defineConfig({
   testDir: './tests',
+  testMatch: /.*\.spec\.(js|ts|mjs)/,
   fullyParallel: false,
   retries: 0,
   workers: 1,
