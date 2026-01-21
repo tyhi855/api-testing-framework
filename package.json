@@ -1,7 +1,6 @@
 {
   "name": "playwright-api-tests",
   "version": "1.0.0",
-  "main": "index.js",
   "type": "module",
   "scripts": {
     "test:api": "playwright test tests/api --reporter=html"

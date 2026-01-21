@@ -1,5 +1,5 @@
-import { test } from '../utils/fixtures';
-import { expect } from '../utils/custom-exptect';
+import { test } from '../../utils/fixtures';
+import { expect } from '../../utils/custom-exptect';
 
 test('Create and Delete Article', async ({ api }) => {
     const createArticleResponse = await api
