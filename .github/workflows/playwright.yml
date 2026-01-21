@@ -34,7 +34,7 @@ jobs:
         env:
           CONDUIT_EMAIL: ${{ secrets.CONDUIT_EMAIL }}
           CONDUIT_PASSWORD: ${{ secrets.CONDUIT_PASSWORD }}
-        run: npm run test
+        run: npm run test:api
 
       - name: Upload Playwright HTML report
         if: always()
